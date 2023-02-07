@@ -1,0 +1,72 @@
+html, body {
+    width: 150px;
+    margin: 0px;
+    background-color: #222;
+  }
+body{
+    border: 10px solid;
+    border-image-source: linear-gradient(0deg, #743ad5, #d53a9d);
+    border-image-slice: 1;
+    border-width: 5px;
+  }
+#popup-content{
+    padding: 1px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    justify-content: center;
+}
+#inputrow{
+    width: 142px;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+}
+button{
+    width: 46px;
+    height: 46px;
+    font-size: 28px;
+    color: white;
+    background-color: #444;
+    border: none;
+    border-radius: 100%;
+    text-shadow: #222 2px 2px 2px;
+    margin: auto;
+}
+button:hover{
+    color: #5effe7;
+    width:40px;
+    height: 40px;
+    font-size: 26px;
+    transition: 0.25s ease;
+}
+button:focus{
+    color: #82ff63;
+    background-color: #223a29;
+}
+input{
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+    font-size: 18px;
+    color: white;
+    background-color: #444;
+    border: none;
+    grid-column: span 2;
+    border-radius: 5px;
+    justify-self: center;
+}
+textarea{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    border: none;
+    resize: none;
+    cursor: default;
+}
+#text:focus{
+    outline: none;
+    box-shadow: 0px 0px 3px 3px #A13ABA;
+    transition: 0.25s ease;
+}
