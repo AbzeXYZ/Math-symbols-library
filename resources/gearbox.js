@@ -1,9 +1,9 @@
 const buttons = document.querySelectorAll("button");
 const textarea = document.getElementById("thecopyingzone");
 const input = document.getElementById("text");
-const upper = "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖᑫʳˢᵗᵘᵛʷˣʸᶻ¹²³⁴⁵⁶⁷⁸⁹⁰";
-const lower = "ₐᵦcdₑfgₕᵢⱼₖₗₘₙₒₚqᵣₛₜᵤᵥwₓyz₁₂₃₄₅₆₇₈₉₀";
-const normal = "abcdefghijklmnopqrstuvwxyz1234567890";
+const upper = "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖᑫʳˢᵗᵘᵛʷˣʸᶻ¹²³⁴⁵⁶⁷⁸⁹⁰⁻⁺˙⸍⁼⁽⁾";
+const lower = "ₐᵦcdₑfgₕᵢⱼₖₗₘₙₒₚqᵣₛₜᵤᵥwₓyz₁₂₃₄₅₆₇₈₉₀₋₊.⸝₌₍₎";
+const normal = "abcdefghijklmnopqrstuvwxyz1234567890-+∙/=()";
 textarea.style.display = "none";
 
 function replace(letter, mode){
