@@ -4,7 +4,7 @@
   "version": "1.1",
 
   "description": "A simple library of mathematical symbols for quick copying into your clipboard with a press of a button with the ability to create upper and lower index text.",
-  "homepage_url": "https://github.com/AbzeXYZ/Math-symbols-library",
+  "homepage_url": "https://github.com/abzXYZ/Math-symbols-library",
   "icons": {
     "48": "resources/icon48.png",
 	"64": "resources/icon.png"
